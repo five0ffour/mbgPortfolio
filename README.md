@@ -1,26 +1,26 @@
-# mbgPortfolio
+# mbgPortfolio  
 a personal portfolio of Michael Galarneau  
   
-#Tech Stack
+#Tech Stack  
 HTML   
 CSS  
 Materialize  
   
-#Work References
+#Work References  
 Biography of MBG.   Note the images include reveals for links and background materials  
   
-#Portfolio
+#Portfolio  
 Product development from UNH Bootcamp development work in fall of 2018  
 WordGuessGame:  https://five0ffour.github.io/WordGuess-Game/  
 TriviaGame:  https://five0ffour.github.io/TriviaGame/  
 Marvel Game: https://plipandfirt.github.io/Squirrelmageddon-Project-1/  
   
-#Associated GitHubs:
+#Associated GitHubs  
 WordGuessGame:  https://github.com/five0ffour/WordGuess-Game  
 TriviaGame:  https://github.com/five0ffour/TriviaGame  
 Marvel Game: https://github.com/plipandfirt/Squirrelmageddon-Project-1  
   
-#Acknowledgements
+#Acknowledgements  
 Images either oringal material from Michael Galarneau or used with permission from unsplash.com  
 Technology logos referenced from wikipedia.org  
 Cigna HQ from Cigna Corporation  
