@@ -209,58 +209,50 @@
         <div class="container">
             <h3 class="header text_b center">Contact Me </h3>
             <div class="row">
-                <form class="col s12">
-                    <div class="row">
-                        <div class="input-field col s6">
-                            <input id="first_name" type="text" class="validate">
-                            <label for="first_name">First Name</label>
-                        </div>
-                        <div class="input-field col s6">
-                            <input id="last_name" type="text" class="validate">
-                            <label for="last_name">Last Name</label>
-                        </div>
+                <div class="row">
+                    <div class="input-field col s6">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="email" type="email" class="validate">
-                            <label for="email">Email</label>
-                        </div>
+                    <div class="input-field col s6">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id="comments" class="materialize-textarea"></textarea>
-                            <label for="comments">Comments</label>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <input id="email" type="email" class="validate">
+                        <label for="email">Email</label>
                     </div>
-                    <div class="row">
-                        <div class="col s12">
-                            <p>Contact me at: <span><a href="mailto:mbgalarneau@gmail.com" id='sendEmail'>mbgalarneau@gmail.com</a></span></p>
-                        </div>
-                        <div class="col s12" style="padding-top: 0.75em">
-                            <button class="waves-effect waves-light btn" id="contact-btn">Send Comments</button>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="input-field col s12">
+                        <textarea id="comments" class="materialize-textarea"></textarea>
+                        <label for="comments">Comments</label>
                     </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <!-- <div class="section" style="background-color: black;" id="contact">
-        <div class="container black">
-            <div class="row">
-                <div class="col s12 m12 6">
-                    <h3 class="header text_b center">Contact Me </h3>
-                    <div class="card">
-                        <div class="card-content horizontal black center">
-                            <div class="col s12">
-                                <p>Contact me at: </p> 
-                                <a href="mailto:mbgalarneau@gmail.com" id='sendEmail'>mbgalarneau@gmail.com</a>
+                </div>
+                <div class="row">
+                    <div class="col s12">
+                        <p>Contact me at: <span><a href="mailto:mbgalarneau@gmail.com" id='sendEmail'>mbgalarneau@gmail.com</a></span></p>
+                    </div>
+                    <div class="col s12" style="padding-top: 0.75em">
+                        <!-- Modal Trigger -->
+                        <!-- <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Modal</a> -->
+                        <button data-target="modal1" class="btn modal-trigger">Submit Comments</button>
+                        <div id="modal1" class="modal teal">
+                            <div class="modal-content">
+                                <h4>Comments Submitted</h4>
+                                <p>Thank you for your feedback! I will consider your comments carefully!</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Close</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+        </div>
+    </div>
 
     <!-- Skill Sets -->
     <div class="section" style="background-color: black;" id="skillsets">
